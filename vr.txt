@@ -1,0 +1,8 @@
+#cloud-config
+users:
+  - name: siadmin
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh_authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCpQQcXc0SFBiCzz50QYRpgfDdmYJaN26JDIVl0QdszbGZmqKRfhZTWyvF2cBBHw7J8xVkSKOmDwZ5bKzLT9hXaQr3ex8HGxlmo/NHG/5Bf+Cxu9tU8WDOm/jDITU4Urw8esoxYJuVULSKkVcCvzPDnyPcohmMBWCEpJyWK+4H1YYQary715OxeQZAL0MGhowTVdLiD+ZnapGH3tX0VYXnx0Y/rg0IXGIB9Yq4zokMpeklEQfFUalkPa6L0DKvIwT2jqo6+WQ4ZZBCqMusCapGe7jRDLdf5BpVjoHyE904+B4rupK6iHsLfDPxXrVfJg2XvmJ3ugBm1I347UqGgxz6b terminal\sotnikov_i@NEM100
